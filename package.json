@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-constant",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create an iterator which always returns the same value.",
   "license": "Apache-2.0",
   "author": {
