@@ -300,7 +300,7 @@ tape( 'if an environment supports `Symbol.iterator`, the returned iterator is it
 	var i;
 
 	iterConstant = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': '__ITERATOR_SYMBOL__'
+		'@stdlib/symbol-iterator': '__ITERATOR_SYMBOL__'
 	});
 
 	it1 = iterConstant( 3.14 );
@@ -323,7 +323,7 @@ tape( 'if an environment does not support `Symbol.iterator`, the returned iterat
 	var it;
 
 	iterConstant = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': false
+		'@stdlib/symbol-iterator': false
 	});
 
 	it = iterConstant( 3.14 );
