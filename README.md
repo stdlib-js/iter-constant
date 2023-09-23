@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterConstant from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-constant@deno/mod.js';
+import iterConstant from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-constant@v0.1.0-deno/mod.js';
 ```
 
 #### iterConstant( value\[, options] )
@@ -154,7 +154,7 @@ var bool = it.next().done;
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import iterConstant from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-constant@deno/mod.js';
+import iterConstant from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-constant@v0.1.0-deno/mod.js';
 
 // Create an iterator:
 var opts = {
