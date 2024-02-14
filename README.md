@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterConstant from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-constant@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-constant/tags). For example,
+
+```javascript
 import iterConstant from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-constant@v0.2.0-deno/mod.js';
 ```
 
@@ -154,7 +159,7 @@ var bool = it.next().done;
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import iterConstant from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-constant@v0.2.0-deno/mod.js';
+import iterConstant from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-constant@deno/mod.js';
 
 // Create an iterator:
 var opts = {
