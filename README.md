@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterConstant from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-constant@esm/index.mjs';
+import iterConstant from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-constant@v0.2.0-esm/index.mjs';
 ```
 
 #### iterConstant( value\[, options] )
@@ -159,7 +159,7 @@ var bool = it.next().done;
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import iterConstant from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-constant@esm/index.mjs';
+import iterConstant from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-constant@v0.2.0-esm/index.mjs';
 
 // Create an iterator:
 var opts = {
